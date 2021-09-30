@@ -9,7 +9,7 @@ public class Report {
     public Report(int txnid, String previoustimepstamp, String latestTimestamp, String account, String adviser, double value)
     {
         super();
-        this.Txnid = txnid;
+        this.Txnid = txnid; 
         this.PreviousTimestamp = previoustimepstamp;
         this.LatestTimestamp = latestTimestamp;
         this.Account = account;
